@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.BIT_nokriPortal" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/pink</item>
+        <item name="colorButtonNormal">@color/pink</item>
+        <item name="android:colorSecondary">@color/pink</item>
+    </style>
+</resources>

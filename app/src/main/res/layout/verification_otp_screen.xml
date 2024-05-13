@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="318dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/tv_heading"
+            style="@style/HeadingTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verification OTP" />
+
+        <TextView
+            android:id="@+id/tv_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We have sent OTP to your email"
+            style="@style/SubheadingTextStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="38dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_otp1"
+                style="@style/otpTextStyle"
+                android:background="@drawable/verfication_bg"
+                android:text="1"
+                />
+            <TextView
+                android:id="@+id/tv_otp2"
+                style="@style/otpTextStyle"
+                android:background="@drawable/verfication_bg"
+                android:text="7"
+                />
+            <TextView
+                android:id="@+id/tv_otp3"
+                style="@style/otpTextStyle"
+                android:background="@drawable/verfication_bg"
+                android:text="*"
+                />
+            <TextView
+                android:id="@+id/tv_otp4"
+                style="@style/otpTextStyle"
+                android:background="@drawable/verfication_bg"
+                android:text="*"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tv_q_resend"
+                android:layout_width="wrap_content"
+               style="@style/ResendOTPTextStyle"
+                android:text="Didn't have OTP?" />
+
+            <TextView
+                android:id="@+id/tv_resend"
+                android:layout_width="wrap_content"
+               style="@style/ResendOTPTextStyle"
+                android:text="Resend OTP"
+                android:textColor="@color/pink"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_verify"
+            style="@style/btnTextStyle"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/pink"
+            android:text="Verify" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

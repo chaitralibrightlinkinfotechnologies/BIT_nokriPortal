@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BIT_nokriPortal"
+        parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/pink</item>
+        <item name="colorOnPrimaryContainer">@color/pink</item>
+
+        <item name="colorOnSecondary">@color/pink</item>
+
+    </style>
+
+    <style name="Theme.BIT_nokriPortal"
+        parent="Base.Theme.BIT_nokriPortal">
+    <item name="android:colorPrimary">@color/pink</item>
+        <item name="colorOnPrimaryContainer">@color/pink</item>
+    </style>
+</resources>
